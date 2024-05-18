@@ -350,3 +350,68 @@ svg{
 }
 
 
+ /* ---service divition--- */
+
+ .sevice-container{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    padding: 4rem 0 ;
+}
+
+/* @media only screen and (max-width: 1500px){
+    .flex-contain{
+        width: 70%;
+    }
+} */
+.flex-contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    padding-top: 1rem;
+    width: 15rem;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.062);
+    text-align: center;
+    height: 20rem;
+    overflow: hidden;
+    background:linear-gradient(to right, rgba(255, 255, 255, 0.767) , rgba(128, 255, 116, 0.267) );
+    box-shadow: 5px 5px 5px 0 rgb(179, 183, 188);
+    border-radius: 5px;
+}
+
+.no{
+    padding: 4rem;
+}
+
+.head-text{
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    color: #7fa629;
+}
+
+.p-text{
+    font-size: 1.1rem;
+    font-family: "Open Sans", sans-serif;
+    width: 90%;
+    margin: auto;
+    font-weight: 200;
+}
+
+.icon{
+    width: 5rem;
+    height: 5rem;
+}
