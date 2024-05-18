@@ -357,6 +357,11 @@ svg{
     font-family: "Open Sans", sans-serif;
 }
 
+#p{
+    width: 45%;
+    margin: auto;
+}
+
 .flex-container{
     display: flex;
     flex-direction: row;
@@ -383,11 +388,11 @@ svg{
     padding-top: 1rem;
     width: 15rem;
     margin: auto;
-    border: 1px solid rgba(0, 0, 0, 0.062);
+    /* border: 1px solid rgba(0, 0, 0, 0.062); */
     text-align: center;
     height: 20rem;
     overflow: hidden;
-    background:linear-gradient(to right, rgba(255, 255, 255, 0.767) , rgba(128, 255, 116, 0.267) );
+    background:linear-gradient(to right, rgba(255, 255, 255, 0.767) , rgba(128, 255, 116, 0.267)40% );
     box-shadow: 5px 5px 5px 0 rgb(179, 183, 188);
     border-radius: 5px;
 }
