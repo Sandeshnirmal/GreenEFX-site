@@ -311,7 +311,7 @@ svg{
 /* ---web development--- */
 
 .web{
-    height: 20rem;
+    height: 25rem;
     padding: 4rem 0 2rem 0;
     display: flex;
     align-items: center;
@@ -392,7 +392,7 @@ svg{
     text-align: center;
     height: 20rem;
     overflow: hidden;
-    background:linear-gradient(to right, rgba(255, 255, 255, 0.767) , rgba(128, 255, 116, 0.267)40% );
+    background:linear-gradient(to right, rgba(255, 255, 255, 0.767) 0%, rgba(128, 255, 116, 0.267) );
     box-shadow: 5px 5px 5px 0 rgb(179, 183, 188);
     border-radius: 5px;
 }
@@ -413,10 +413,18 @@ svg{
     font-family: "Open Sans", sans-serif;
     width: 90%;
     margin: auto;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .icon{
     width: 5rem;
     height: 5rem;
+}
+
+.heading{
+    font-weight: 450;
+}
+
+#footer-content{
+    background-image: url(/requirment/img/wave-png-9954.png);
 }
