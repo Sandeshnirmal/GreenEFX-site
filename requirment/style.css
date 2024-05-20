@@ -620,5 +620,15 @@ strong{
     font-size: 1rem;
 }
 
+.social{
+    display: flex;
+    flex-direction: row;
+}
 
+.icons{
+    width: 2rem;
+    height: 2rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
 
