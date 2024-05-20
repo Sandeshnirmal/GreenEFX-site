@@ -1,26 +1,29 @@
-
-
-body{
+*{
     padding: 0;
     margin: 0;
 }
 
+
+
 /* ---Navigation Bar--- */
 
 #header{
-    display: block;
     color: white;
     /* background-color: rgb(172, 172, 172); */
     position: fixed;
-    z-index: 1000;
+    z-index: 1;
     width: 100%;
     background-color: white;
     margin: 0%;
+    
+    scroll-behavior: none;
     font-family: "Open Sans", sans-serif;
 }
 
 #header::after{
     background-color: white;
+    z-index: 1;
+    position: block;
 }
 
 .container{
@@ -28,8 +31,9 @@ body{
     align-items: center;
     justify-content: space-around;
     height: 7rem;
-
-    z-index: 1000;
+    position: block;
+    padding-top: 1.3rem;
+    z-index: 1;
     /* width: 100%; */
     /* background-image: url(/requirment/img/peakpx.jpg); */
     /* background-image:linear-gradient(to left,rgba(0, 0, 0, 0.788),rgba(255, 255, 255, 0.151)) ,url(/requirment/img/peakpx.jpg); */
@@ -41,7 +45,7 @@ body{
 .navbar{
     /* justify-content: flex-end; */
     width: 20rem;
-    z-index: 1000;
+    /* z-index: 1000; */
 }
 
 .nav_list{
@@ -352,10 +356,14 @@ svg{
 
  /* ---service divition--- */
 
+
+
  .sevice-container{
     text-align: center;
     font-family: "Open Sans", sans-serif;
+   
 }
+
 
 #p{
     width: 45%;
@@ -422,24 +430,35 @@ svg{
 }
 
 .heading{
-    font-weight: 450;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    color: #7fa629;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
 }
 
 /* ---careers section--- */
 
 .career-section{
     font-family: "Open Sans", sans-serif;
+    /* margin: 5rem 0; */
+    padding-top: 5rem;
+    /* background-color: rgb(172, 172, 172); */
+    height: 60rem;
 }
 
 #p2{
-    width: 83%;
+    width: 75%;
     margin: auto;
     text-align: center;
     font-size: 0.96rem;
     letter-spacing: 0.7px;
+    line-height: 1.2;
 }
 
 /* carosule section */
+
 /* 
 * {
     margin: 0;
@@ -449,18 +468,28 @@ svg{
   
  .section-container{
     margin: 5rem 0;
+   
  }
+
+ .c-list{
+    padding-left: 2rem;
+}
+
+.hc{
+    color: #7af147;
+    font-weight: 500;
+}
 
   
   .container2 {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: center;
     height: 35rem;
-    gap: 10px;
+    gap: 15px;
   
      div {
-      flex: 0 0 25rem;
+      flex: 0 0 20rem;
       border-radius: 0.5rem;
       transition: 0.5s ease-in-out;
       cursor: pointer;
@@ -469,19 +498,27 @@ svg{
       overflow: hidden;
   
       &:nth-of-type(1) {
-        background: url("/requirment/img/web.jpg")
-          no-repeat 5% / cover;
-          background-position:1%, 2% ;
+        background: url("/requirment/img/trainer.jpg")
+           no-repeat 5%/ contain ;
+          /* background: radial-gradient(circle at 10% 20%, rgba(161, 255, 206, 0.534) 0%, rgb(250, 255, 209) 90%); */
+            box-shadow: 5px 5px 5px 5px rgb(179, 183, 188);
+            background-color: rgb(255, 255, 255);
       }
       &:nth-of-type(2) {
-        background: url("/requirment/img/web.jpg")
-          no-repeat 5% / cover;
-          background-position:30%, 100% ;
+         background: url("/requirment/img/web-d.jpg")
+          no-repeat 5% / contain;
+          /*background-position:37%, 80% ; */
+          /* background: radial-gradient(circle at 10% 20%, rgb(161, 255, 206) 0%, rgb(250, 255, 209) 90%); */
+          box-shadow: 5px 5px 5px 5px rgb(179, 183, 188);
+          background-color: rgb(255, 255, 255);
       }
       &:nth-of-type(3) {
-        background: url("/requirment/img/web.jpg")
-          no-repeat 5% / cover;
-          background-position: 100%, 10%;   
+         background: url("/requirment/img/prog.jpg")
+         no-repeat 5%/ contain;
+         /* background-position: 100%, 30%;    */
+          /* background: radial-gradient(circle at 10% 20%, rgb(161, 255, 206) 0%, rgb(250, 255, 209) 90%); */
+        box-shadow: 5px 5px 5px 5px rgb(179, 183, 188);
+        background-color: rgb(255, 255, 255);
       }
   
       .content {
@@ -489,7 +526,7 @@ svg{
         color: #fff;
         display: flex;
         align-items: center;
-        padding: 15px;
+        padding: 14px;
         opacity: 0;
         flex-direction: column;
         margin: auto;
@@ -498,8 +535,8 @@ svg{
         background: rgb(2, 2, 46);
         background: linear-gradient(
           0deg,
-          rgba(2, 2, 46, 0.6755077030812324) 0%,
-          rgba(0, 0, 0, 0.419) 100%
+          rgba(0, 0, 0, 0.686) 30%,
+          rgba(0, 0, 0, 0.252) 100%
         );
         transform: translatey(100%);
         transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
@@ -509,12 +546,14 @@ svg{
           display: block;
           margin-top: 5px;
           font-size: 1.2rem;
+          width: 97%;
         }
       }
   
       &:hover {
-        flex: 0 0 27rem;
-        box-shadow: 1px 3px 15px #7645d8;
+        padding-top: 1.3rem;
+        flex: 0 0 30rem;
+        box-shadow: 1px 3px 15px #5a5a5a;
         transform: translatey(-30px);
       }
   
@@ -530,13 +569,14 @@ svg{
 /* ---footter section--- */
 
 .footer-content{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.112)50% , rgba(123, 255, 103, 0.37));
+    background-image: linear-gradient(rgba(255, 255, 255, 0.112)50% , rgba(123, 255, 103, 0.499));
     background-size: cover;
     background-position: 10% 60%;
     height: 25rem;
     margin: 0;
     color: rgb(0, 0, 0);
     display: flex;
+    font-family: "Open Sans", sans-serif;
     /* justify-content: end; */
 }
 
@@ -545,13 +585,40 @@ svg{
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row;
-    width: 75%;
-    margin: 0% auto;
+    width: 60%;
+    height: 15rem;
+    margin: auto;
+    box-shadow: 1px 5px 15px #4a4a4a;
+    border-radius: 25px;
+    padding: 1rem;
+    background-color: #fff;
 }
-
-
-
 
 .Contact-text{
     margin: 0;
+    font-size: 0.96rem;
+    letter-spacing: 0.9px;
+    line-height: 1.4;
 }
+
+strong{
+    color: #7fa629;
+    font-weight: 400; 
+}
+
+.name{
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    color: #7fa629;
+}
+
+.col{
+    color: #7fa629;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+    font-size: 1rem;
+}
+
+
+
