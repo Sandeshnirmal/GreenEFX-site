@@ -18,7 +18,7 @@ document.addEventListener('mousemove', (e) =>{
   });
 
 });
-al
+
 // }
 
 // var screen = document.matchMedia('(min-width: 600px)');
