@@ -413,7 +413,7 @@ svg{
 
 .course_tem{
     height: 15rem;
-    background-image:url(/requirment/img/bg_4.jpg);
+    background-image:url(requirment/img/bg_4.jpg);
     background-size: cover;
     background-position: 40% 30%;
     margin-top: 4rem;
@@ -668,7 +668,7 @@ svg{
             
             rgba(255, 255, 255, 0.789) 100%,
             rgb(255, 254, 254) 30%
-          ), url("/requirment/img/intern.jpg")
+          ), url("requirment/img/intern.jpg")
         no-repeat 5%/ contain ;
         background-position: 50%,60%;
     }
@@ -678,7 +678,7 @@ svg{
             0deg,
             rgba(255, 254, 254, 0.89) 30%,
             rgba(255, 255, 255, 0.644) 100%
-          ),url("/requirment/img/web-d.jpg")
+          ),url("requirment/img/web-d.jpg")
         no-repeat 5%/ contain ;
     }
 
@@ -687,7 +687,7 @@ svg{
             0deg,
             rgba(255, 254, 254, 0.89) 30%,
             rgba(255, 255, 255, 0.644) 100%
-          ), url("/requirment/img/prog.jpg")
+          ), url("requirment/img/prog.jpg")
         no-repeat 5%/ contain ;
     }
     
@@ -745,7 +745,7 @@ svg{
       overflow: hidden;
   
       &:nth-of-type(1) {
-        background: url("/requirment/img/intern.jpg")
+        background: url("requirment/img/intern.jpg")
            no-repeat 5%/ contain ;
           /* background: radial-gradient(circle at 10% 20%, rgba(161, 255, 206, 0.534) 0%, rgb(250, 255, 209) 90%); */
             box-shadow: 5px 5px 5px 5px rgb(179, 183, 188);
@@ -753,7 +753,7 @@ svg{
               background-position:50%, 50% ;
       }
       &:nth-of-type(2) {
-         background: url("/requirment/img/web-d.jpg")
+         background: url("requirment/img/web-d.jpg")
           no-repeat 5% / contain;
           /*background-position:37%, 80% ; */
           /* background: radial-gradient(circle at 10% 20%, rgb(161, 255, 206) 0%, rgb(250, 255, 209) 90%); */
@@ -761,7 +761,7 @@ svg{
           background-color: rgb(255, 255, 255);
       }
       &:nth-of-type(3) {
-         background: url("/requirment/img/prog.jpg")
+         background: url("requirment/img/prog.jpg")
          no-repeat 5%/ contain;
          /* background-position: 100%, 30%;    */
           /* background: radial-gradient(circle at 10% 20%, rgb(161, 255, 206) 0%, rgb(250, 255, 209) 90%); */
