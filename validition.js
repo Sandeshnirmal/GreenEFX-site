@@ -76,12 +76,12 @@
             thisForm.querySelector('.loading').classList.remove('d-block');
             // console.log(data);
             if (data.trim() == 'OK') {
-                console.log("working");
+                // console.log("working");
 
                 thisForm.querySelector('.sent-message').classList.add('d-block');
                 thisForm.reset(); 
             } else {
-                console.log("not working ");
+                // console.log("not working ");
                 displayError(thisForm,"something went wrong .");
             }
         })
