@@ -590,7 +590,7 @@ svg{
     height: 20rem;
     overflow: hidden;
     border: none;
-    background:linear-gradient(to right, rgba(255, 255, 255, 0.767) , rgba(117, 219, 107, 0.404)40% );
+    background:linear-gradient(to right, rgba(165, 210, 149, 0.221) , rgba(116, 219, 107, 0.374)40% );
     box-shadow: 5px 5px 5px 0 rgb(179, 183, 188);
     border-radius: 5px;
 
