@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GreenEFX Media</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="requirment/img/GreenEFXICON.png"
+    />
+
+    <!-- Template Main CSS File -->
+    <link href="style.css" rel="stylesheet" />
+    <!-- training page ccs file -->
+    <link rel="stylesheet" href="training.css" />
+  </head>
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header">
+      <div class="container1">
+        <div>
+          <h1 class="logo">
+            <img class="logo_img" src="requirment/img/green_logo.png" />
+          </h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo me-auto"></a>-->
+        </div>
+        <div class="fixed" onclick="toShow()">
+          <svg
+            class="nav-button"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path
+              fill="#7fa629"
+              d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+            />
+          </svg>
+        </div>
+        <nav id="navbar" class="navbar">
+          <div class="nav-contain">
+            <div class="nav_list">
+              <li>
+                <a class="nav-link hoveranimation" href="index.html#about"
+                  >About</a
+                >
+              </li>
+              <li>
+                <div class="nav-link hoveranimation tl" >
+                  Training
+                  <svg
+                    class="down"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                  >
+                    <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                      fill="#000000"
+                      d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
+                    />
+                  </svg>
+                </div>
+                <div class="training">
+                  <ul class="dropdown" id="myDropdown">
+                    <li><a href="#">Diploma in 3D Animation</a></li>
+                    <li>
+                      <div onclick="myFunction1()" class="al">
+                        Animation & VFX
+                        <svg
+                          class="down"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 448 512"
+                        >
+                          <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                          <path
+                            fill="#000000"
+                            d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
+                          />
+                        </svg>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#" class="openModalLink"
+                        >Diploma in Graphics Designing</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="openModalLink"
+                        >Diploma in Web Designing</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="openModalLink"
+                        >Diploma in Desktop Publishing</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="openModalLink"
+                        >Diploma in Video Editing</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="openModalLink"
+                        >Diploma in Computer Application</a
+                      >
+                    </li>
+                  </ul>
+                  <ul class="dropdown1" id="myDropdown1">
+                    <li>
+                      <a href="#" class="openModalLink"
+                        >Adv Diploma in 3d&VFX</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="openModalLink"
+                        >Adv Diploma in Effects</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="openModalLink"
+                        >Adv Diploma in Crowd Simulation</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="openModalLink"
+                        >Adv Diploma in Character Effects</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="openModalLink"
+                        >Adv Diploma in Character Animation</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a class="nav-link hoveranimation" href="index.html#service"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a class="nav-link hoveranimation" href="#careers">Career</a>
+              </li>
+              <li>
+                <a class="nav-link hoveranimation" href="#contact">Contact</a>
+              </li>
+            </div>
+          </div>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+
+    <!-- dicription section -->
+    <section class="tcourse">
+      <div class="tcourse-container">
+        <h2 class="heading">training</h2>
+        <p class="course_dec">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure
+          molestias at itaque veniam voluptatibus laudantium sint cumque, sed
+          sequi nulla minima numquam ut maiores aut excepturi accusantium
+          doloremque voluptatum. Exercitationem adipisci temporibus, itaque
+          ducimus delectus numquam autem eum aspernatur iste mollitia sint,
+          sequi ullam cum non ipsa architecto consequuntur iusto.
+        </p>
+      </div>
+    </section>
+
+    <main>
+      <section class="dip1 dip1_mobile" id="Animation3d">
+
+        <div class="dip1-container par container">
+          <h2 class="heading headings">diplamo in 3d Animation</h2>
+          <div class="dip1-button">
+            <span id="t1" class="buttons" >tittle1</span>
+            <span id="t2" class="buttons" >tittle2</span>
+            <span id="t3" class="buttons" >tittle3</span>
+          </div>
+          <div class="dip1-content parg">
+            <span class="dip1-p1" id="dip1-p1"
+              ><p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+                ratione optio sit quam incidunt ea soluta neque nemo omnis ipsa
+                inventore, adipisci veritatis, voluptatem qui cumque harum.
+              </p>
+              <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, laudantium?</P>
+              <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, totam.</P>
+              
+              </span
+            >
+            <span class="dip1-p2" id="dip1-p2"
+              ><p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis
+                nam illo necessitatibus ex, adipisci laborum officiis, voluptas
+                minus recusandae voluptate non error ipsum? A enim cupiditate,
+              </p>
+              <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, laudantium?</P>
+              <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, totam.</P>
+              </span>
+            <span class="dip1-p3" id="dip1-p3"
+              ><p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                aperiam ab sunt iste sequi eaque saepe velit magnam quo
+                blanditiis, tempore animi architecto distinctio. Sunt alias
+              </p>
+              <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, laudantium?</P>
+              <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, totam.</P>
+              
+            </span>
+          </div>
+        </div>
+        <div class="video_container">
+          <video autoplay muted loop preload="auto" id="animation_video">
+            <source src="requirment/video/animation.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </section>
+
+      <section class="dip2 dip1_mobile container" id="Graphics_des">
+
+        <div class="dip2-container par ">
+          <h2 class="heading headings">Diploma in Graphics Designing</h2>
+          <div class="dip1-button">
+          <span id="t4" class="buttons">tittle1</span>
+          <span id="t5" class="buttons">tittle2</span>
+          <span id="t6" class="buttons">tittle3</span>
+          </div>
+          <div class="dip1-content parg">
+            <span class="dip1-p1" id="dip2-p1"
+              ><p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+                ratione optio sit quam incidunt ea soluta neque nemo omnis ipsa
+                inventore, adipisci veritatis, voluptatem qui cumque harum.
+              </p>
+              <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, laudantium?</P>
+              <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, totam.</P>
+              
+              </span
+            >
+            <span class="dip1-p2" id="dip2-p2"
+              ><p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis
+                nam illo necessitatibus ex, adipisci laborum officiis, voluptas
+                minus recusandae voluptate non error ipsum? A enim cupiditate,
+              </p>
+              <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, laudantium?</P>
+              <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, totam.</P>
+              </span>
+            <span class="dip1-p3" id="dip2-p3"
+              ><p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                aperiam ab sunt iste sequi eaque saepe velit magnam quo
+                blanditiis, tempore animi architecto distinctio. Sunt alias
+              </p>
+              <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, laudantium?</P>
+              <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, totam.</P>
+              
+            </span>
+          </div>
+        </div>
+        <div class="video_container">
+          <video autoplay muted loop preload="auto" id="animation_video">
+            <source src="requirment/video/grapichdes.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </section>
+
+      <section class="dip1 dip1_mobile">
+
+        <div class="dip1-container par container ">
+          <h2 class="heading headings">Diploma in Web Designing</h2>
+          <div class="dip1-button">
+            <span id="t7" class="buttons" >Learning Content</span>
+            <span id="t8" class="buttons" >course benifits</span>
+            <span id="t9" class="buttons" >time slot</span>
+          </div>
+          <div class="dip1-content parg">
+            <span class="dip1-p1" id="dip3-p1"
+              ><p>
+                HTML, CSS, and JavaScript fundamentals <br>
+                Responsive web design and frameworks (Bootstrap, Flexbox) <br>
+                User Experience (UX) and User Interface (UI) design principles <br>
+                Web design tools like Adobe Dreamweaver and Figma <br>
+                Basic web development concepts and SEO basics <br>
+              </p>
+              </span
+            >
+            <span class="dip1-p2 " id="dip3-p2"
+              ><p>High demand for skilled web designers in various industries <br>
+              Opportunity to work on diverse projects and freelance <br>
+              Foundation for advanced studies in web development and design <br>
+              Ability to create and maintain professional websites</p>
+              </span>
+            <span class="dip1-p3" id="dip3-p3"
+              >
+              <!-- <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                aperiam ab sunt iste sequi eaque saepe velit magnam quo
+                blanditiis, tempore animi architecto distinctio. Sunt alias
+              </p>
+              <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, laudantium?</P>
+              <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, totam.</P> -->
+              
+            </span>
+          </div>
+        </div>
+        <div class="video_container">
+          <video autoplay muted loop preload="auto" id="animation_video">
+            <source src="requirment/video/css.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </section>
+
+      <section class="dip2 dip1_mobile">
+
+        <div class="dip2-container par container">
+          <h2 class="heading headings">Diploma in Desktop Publishing</h2>
+          <div class="dip1-button">
+            <span id="t10" class="buttons" >tittle1</span>
+            <span id="t11" class="buttons" >tittle2</span>
+            <span id="t12" class="buttons" >tittle3</span>
+          </div>
+          <div class="dip1-content parg">
+            <span class="dip1-p1" id="dip4-p1"
+              ><p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+                ratione optio sit quam incidunt ea soluta neque nemo omnis ipsa
+                inventore, adipisci veritatis, voluptatem qui cumque harum.
+              </p>
+              <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, laudantium?</P>
+              <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, totam.</P>
+              
+              </span
+            >
+            <span class="dip1-p2" id="dip4-p2"
+              ><p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis
+                nam illo necessitatibus ex, adipisci laborum officiis, voluptas
+                minus recusandae voluptate non error ipsum? A enim cupiditate,
+              </p>
+              <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, laudantium?</P>
+              <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, totam.</P>
+              </span>
+            <span class="dip1-p3" id="dip4-p3"
+              ><p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                aperiam ab sunt iste sequi eaque saepe velit magnam quo
+                blanditiis, tempore animi architecto distinctio. Sunt alias
+              </p>
+              <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, laudantium?</P>
+              <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, totam.</P>
+              
+            </span>
+          </div>
+        </div>
+        <div class="video_container">
+          <video autoplay muted loop preload="auto" id="animation_video">
+            <source src="requirment/video/preview.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </section>
+
+      <section class="dip1 dip1_mobile">
+
+        <div class="dip1-container par container">
+          <h2 class="heading headings">Diploma in Video Editing</h2>
+          <div class="dip1-button">
+            <span id="t13" class="buttons" >tittle1</span>
+            <span id="t14" class="buttons" >tittle2</span>
+            <span id="t15" class="buttons" >tittle3</span>
+          </div>
+          <div class="dip1-content parg">
+            <span class="dip1-p1" id="dip5-p1"
+              ><p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+                ratione optio sit quam incidunt ea soluta neque nemo omnis ipsa
+                inventore, adipisci veritatis, voluptatem qui cumque harum.
+              </p>
+              <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, laudantium?</P>
+              <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, totam.</P>
+              
+              </span
+            >
+            <span class="dip1-p2" id="dip5-p2"
+              ><p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis
+                nam illo necessitatibus ex, adipisci laborum officiis, voluptas
+                minus recusandae voluptate non error ipsum? A enim cupiditate,
+              </p>
+              <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, laudantium?</P>
+              <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, totam.</P>
+              </span>
+            <span class="dip1-p3" id="dip5-p3"
+              ><p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                aperiam ab sunt iste sequi eaque saepe velit magnam quo
+                blanditiis, tempore animi architecto distinctio. Sunt alias
+              </p>
+              <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, laudantium?</P>
+              <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, totam.</P>
+              
+            </span>
+          </div>
+        </div>
+        <div class="video_container">
+          <video autoplay muted loop preload="auto" id="animation_video">
+            <source src="requirment/video/Video_Editor.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </section>
+
+      <section class="dip2 dip1_mobile">
+
+        <div class="dip2-container par container">
+          <h2 class="heading headings">diplamo in 3d Animation</h2>
+          <div class="dip1-button">
+            <span id="t16" class="buttons" >tittle1</span>
+            <span id="t17" class="buttons" >tittle2</span>
+            <span id="t18" class="buttons" >tittle3</span>
+          </div>
+          <div class="dip1-content parg">
+            <span class="dip1-p1" id="dip6-p1"
+              ><p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+                ratione optio sit quam incidunt ea soluta neque nemo omnis ipsa
+                inventore, adipisci veritatis, voluptatem qui cumque harum.
+              </p>
+              <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, laudantium?</P>
+              <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, totam.</P>
+              
+              </span
+            >
+            <span class="dip1-p2" id="dip6-p2"
+              ><p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis
+                nam illo necessitatibus ex, adipisci laborum officiis, voluptas
+                minus recusandae voluptate non error ipsum? A enim cupiditate,
+              </p>
+              <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, laudantium?</P>
+              <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, totam.</P>
+              </span>
+            <span class="dip1-p3" id="dip6-p3"
+              ><p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                aperiam ab sunt iste sequi eaque saepe velit magnam quo
+                blanditiis, tempore animi architecto distinctio. Sunt alias
+              </p>
+              <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, laudantium?</P>
+              <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, totam.</P>
+              
+            </span>
+          </div>
+        </div>
+        <div class="video_container">
+          <video autoplay muted loop preload="auto" id="animation_video">
+            <source src="requirment/video/ca.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </section>
+
+      
+      
+    </main>
+
+    <script src="javascript/header.js"></script>
+    <script src="javascript/training.js"></script>
+  </body>
+</html>

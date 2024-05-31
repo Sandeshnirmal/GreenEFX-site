@@ -1,8 +1,12 @@
 
 
 // function responsive(e){
-
-AOS.init();
+  AOS.init({
+    disable: function() {
+      var maxWidth =1000;
+      return window.innerWidth < maxWidth;
+    }
+  });
 let image1 = document.querySelector('#anime');
 let image2 = document.querySelectorAll('#anime1');
 
@@ -65,7 +69,7 @@ function myFunction1(){
 let content = document.getElementById("navbar");
 let showing = 0;
 
-let width = window.matchMedia.apply("(max-width: 1000px)");
+// let width = window.matchMedia.apply("(max-width: 1000px)");
 
 function toShow(){
     if(showing == 1){

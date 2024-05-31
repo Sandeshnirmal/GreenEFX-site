@@ -18,9 +18,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  
+  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+  <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
 
 
   <link rel="icon" type="image/x-icon" href="requirment/img/GreenEFXICON.png">
@@ -49,7 +51,7 @@
         <div class="nav-contain">
         <div class="nav_list">
           <li><a class="nav-link hoveranimation" href="#about">About</a></li>
-          <li ><div class="nav-link hoveranimation tl" onclick="myFunction()">Training <svg class="down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path  fill="#000000" d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg></div>
+          <li ><a href="training.html"><div class="nav-link hoveranimation tl" >Training <svg class="down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path  fill="#000000" d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg></div></a>
             <div class="training" >
              <ul class="dropdown" id="myDropdown" >
               <li><a href="#" >Diploma in 3D Animation</a></li>
@@ -335,7 +337,7 @@
     <section id="about" class="about">
       <div class="about-1">
         <div class="row content">
-              <img id="about_img" data-aos="fade-right" src="requirment/img/about.jpg" alt="description image">
+              <img id="about_img"  src="requirment/img/about.jpg" alt="description image">
 
             <div class="left_row">
               <div class="inside" data-aos="fade-up" data-aos-duration="1000">
@@ -608,7 +610,7 @@
             </div>
             <div class="form-group" >
               <label for="name">Message:</label><br>
-              <textarea class="form-control-msg" name="message" rows="10" ></textarea>
+              <textarea class="form-control-msg" name="message" rows="10" required ></textarea>
             </div>
             <div class="my-3">
               <div class="loading">Loading</div>

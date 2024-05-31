@@ -250,7 +250,7 @@ body{
     
 }
 
-video{
+#video{
    display: block;
    width: 50%;
    height: 50%;
@@ -296,14 +296,11 @@ video::-webkit-media-controls {
     height:27rem;
     width: 50rem ;
     transform-style: preserve-3d;
-    
     filter:drop-shadow(10px);
     transform:perspective(6000px) rotateY(20deg) rotateX(10deg);
-    transform-origin: 50% 50%;
-    
-   
-    
+    transform-origin: 50% 50%;    
 }
+
 .img2{
     display: none;
     position: absolute;
@@ -389,7 +386,7 @@ video::-webkit-media-controls {
     
     transform-style: preserve-3d;
     
-}
+}    
 
 
 .left_row{
@@ -1206,7 +1203,7 @@ strong{
         overflow: visible;
     }
 
-    video{
+    #video{
         z-index: -1;
         display: block;
         width: 100%;
@@ -1223,9 +1220,9 @@ strong{
     }
 
     .logo_img{
-    margin: 0rem;
-    width:  8rem;
-    height: 3.5rem;
+        margin: 0rem;
+        width:  8rem;
+        height: 3.5rem;
     }
 
     .hoveranimation:hover::after{
