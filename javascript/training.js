@@ -1,4 +1,4 @@
-
+AOS.init();
 
 const btns = document.querySelectorAll('.buttons');
 
