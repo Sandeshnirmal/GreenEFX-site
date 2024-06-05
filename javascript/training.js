@@ -134,53 +134,40 @@ function todisplay(btn1, btn2, btn3, cnt1, cnt2, cnt3) {
         
 };    
                             
+let nextButton = document.getElementById('next_btn');
+let prvButton = document.getElementById('prv_btn'); 
+// let section = document.querySelectorAll('.section');
 
+const slides = document.querySelectorAll('.section');
+let index = 0;
 
+function prevSlide(){
+    slides[index].classList.remove('active');
+    index--;
 
+    if(index < 0)
+        index = slides.length -1;
 
+    slides[index].classList.add('active');      
 
+}
 
+prvButton.addEventListener('click', e => {
+    prevSlide();
+});
 
+function nextSlide(){
+    slides[index].classList.remove('active');
+    index++;
 
+    if(index > slides.length -1)
+        index = 0;
 
+    slides[index].classList.add('active');  
+        
+    console.log(slides[index]);
+}
 
-
-
-
-
-//     dipP1.style.display = "block";
-//     dipP2.style.display = "none";
-//     dipP3.style.display = "none"; 
-//     t1.style.borderWidth= "1px";
-//     btn2.style.borderWidth= "0";
-//     t3.style.borderWidth= "0";
-//     t1.style.backgroundColor = "white";
-//     t2.style.backgroundColor = "rgba(0,0,0,0)";
-//     t3.style.backgroundColor = "rgba(0,0,0,0)";
-//     console.log("ex");
-// }
-
-// function change2(){
-//     dipP1.style.display = "none";
-//     dipP2.style.display = "block";
-//     dipP3.style.display = "none";
-//     t1.style.borderWidth= "0";
-//     t2.style.borderWidth= "1px";
-//     t3.style.borderWidth= "0";
-//     t1.style.backgroundColor = "rgba(0,0,0,0)";
-//     t2.style.backgroundColor = "white";
-//     t3.style.backgroundColor = "rgba(0,0,0,0)";
-//     console.log("ex");
-// }
-
-// function change3() {
-//     dipP1.style.display = "none";
-//     dipP2.style.display = "none";
-//     dipP3.style.display = "block";
-//     t1.style.borderWidth= "0";
-//     t2.style.borderWidth= "0";
-//     t3.style.borderWidth = "1px";
-//     t1.style.backgroundColor = "rgba(0,0,0,0)";
-//     t2.style.backgroundColor = "rgba(0,0,0,0)";
-//     t3.style.backgroundColor = "white";
-// //     console.log("ex");
+nextButton.addEventListener('click', e => {
+    nextSlide();
+});
