@@ -1,0 +1,471 @@
+ <div class="animation_container" id="box">
+        <div class="common" style="position: relative;">
+        <div class="buttons" >
+          <svg id="next_btn1" class="next_btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"/></svg>
+          <svg  id="prv_btn1" class="prv_btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160zm352-160l-160 160c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L301.3 256 438.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0z"/></svg>          
+        </div>
+        <div id="slide1">
+          <div id="section1" class="section section1 active">
+            <div class="video_carousel">
+              <video autoplay muted loop preload="metadata" class="adv_video">
+                <source src="requirment/video/crowd.mov" type="video/mp4" />
+              </video>
+            </div>
+            <div class="section_content">
+              <h2>Advance Diplamo in 3d and vfx 1</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti rem veniam laboriosam voluptas dolores magnam fugit
+                perferendis hic labore vel odio, veritatis, tenetur laudantium
+                neque cumque. Esse beatae neque est eaque suscipit, natus
+                obcaecati enim quidem nobis culpa delectus amet?
+              </p>
+            </div>
+          </div>
+
+          <div id="section2" class="section1 section">
+            <div class="video_carousel">
+              <video autoplay muted loop preload="none" class="adv_video">
+                <source src="requirment/video/crowd.mov" type="video/mp4" />
+              </video>
+            </div>
+            <div class="section_content">
+              <h2>Advance Diplamo in 3d and vfx 2</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti rem veniam laboriosam voluptas dolores magnam fugit
+                perferendis hic labore vel odio, veritatis, tenetur laudantium
+                neque cumque. Esse beatae neque est eaque suscipit, natus
+                obcaecati enim quidem nobis culpa delectus amet?
+              </p>
+            </div>
+          </div>
+
+          <div id="section3" class="section1 section">
+            <div class="video_carousel">
+              <video autoplay="false" muted loop preload="none" class="adv_video">
+                <source src="requirment/video/crowd.mov" type="video/mp4" />
+              </video>
+            </div>
+            <div class="section_content">
+              <h2>Advance Diplamo in 3d and vfx 3</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti rem veniam laboriosam voluptas dolores magnam fugit
+                perferendis hic labore vel odio, veritatis, tenetur laudantium
+                neque cumque. Esse beatae neque est eaque suscipit, natus
+                obcaecati enim quidem nobis culpa delectus amet?
+              </p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="common" style="position: relative;">
+          <div class="buttons" >
+            <svg id="next_btn2" class="next_btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"/></svg>
+            <svg  id="prv_btn2" class="prv_btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160zm352-160l-160 160c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L301.3 256 438.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0z"/></svg>          
+          </div>
+        <div id="slide2">
+          <div id="section4" class="section active section2">
+            <div class="video_carousel">
+              <video autoplay muted loop preload="metadata" class="adv_video">
+                <source src="requirment/video/crowd.mov" type="video/mp4" />
+              </video>
+            </div>
+            <div class="section_content">
+              <h2>Advance Diplamo in 3d and vfx 1</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti rem veniam laboriosam voluptas dolores magnam fugit
+                perferendis hic labore vel odio, veritatis, tenetur laudantium
+                neque cumque. Esse beatae neque est eaque suscipit, natus
+                obcaecati enim quidem nobis culpa delectus amet?
+              </p>
+            </div>
+          </div>
+
+          <div id="section5" class="section section2">
+            <div class="video_carousel">
+              <video autoplay muted loop preload="none" class="adv_video">
+                <source src="requirment/video/crowd.mov" type="video/mp4" />
+              </video>
+            </div>
+            <div class="section_content">
+              <h2>Advance Diplamo in 3d and vfx 2</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti rem veniam laboriosam voluptas dolores magnam fugit
+                perferendis hic labore vel odio, veritatis, tenetur laudantium
+                neque cumque. Esse beatae neque est eaque suscipit, natus
+                obcaecati enim quidem nobis culpa delectus amet?
+              </p>
+            </div>
+          </div>
+
+          <div id="section6"  class="section section2">
+            <div class="video_carousel">
+              <video autoplay muted loop preload="none" class="adv_video">
+                <source src="requirment/video/crowd.mov" type="video/mp4" />
+              </video>
+            </div>
+            <div class="section_content">
+              <h2>Advance Diplamo in 3d and vfx 3</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti rem veniam laboriosam voluptas dolores magnam fugit
+                perferendis hic labore vel odio, veritatis, tenetur laudantium
+                neque cumque. Esse beatae neque est eaque suscipit, natus
+                obcaecati enim quidem nobis culpa delectus amet?
+              </p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="common" style="position: relative;">
+          <div class="buttons" >
+            <svg id="next_btn3" class="next_btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"/></svg>
+            <svg  id="prv_btn3" class="prv_btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160zm352-160l-160 160c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L301.3 256 438.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0z"/></svg>          
+          </div>
+        <div id="slide3">
+          <div id="section7" class="section active section3">
+            <div class="video_carousel">
+              <video autoplay muted loop preload="metadata" class="adv_video">
+                <source src="requirment/video/crowd.mov" type="video/mp4" />
+              </video>
+            </div>
+            <div class="section_content">
+              <h2>Advance Diplamo in 3d and vfx 1</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti rem veniam laboriosam voluptas dolores magnam fugit
+                perferendis hic labore vel odio, veritatis, tenetur laudantium
+                neque cumque. Esse beatae neque est eaque suscipit, natus
+                obcaecati enim quidem nobis culpa delectus amet?
+              </p>
+            </div>
+          </div>
+
+          <div id="section8" class="section section3">
+            <div class="video_carousel">
+              <video autoplay muted loop preload="none" class="adv_video">
+                <source src="requirment/video/crowd.mov" type="video/mp4" />
+              </video>
+            </div>
+            <div class="section_content">
+              <h2>Advance Diplamo in 3d and vfx 2</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti rem veniam laboriosam voluptas dolores magnam fugit
+                perferendis hic labore vel odio, veritatis, tenetur laudantium
+                neque cumque. Esse beatae neque est eaque suscipit, natus
+                obcaecati enim quidem nobis culpa delectus amet?
+              </p>
+            </div>
+          </div>
+
+          <div id="section9" class="section section3">
+            <div class="video_carousel">
+              <video autoplay muted loop preload="none" class="adv_video">
+                <source src="requirment/video/crowd.mov" type="video/mp4" />
+              </video>
+            </div>
+            <div class="section_content">
+              <h2>Advance Diplamo in 3d and vfx 3</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti rem veniam laboriosam voluptas dolores magnam fugit
+                perferendis hic labore vel odio, veritatis, tenetur laudantium
+                neque cumque. Esse beatae neque est eaque suscipit, natus
+                obcaecati enim quidem nobis culpa delectus amet?
+              </p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="common" style="position: relative;">
+          <div class="buttons" >
+            <svg id="next_btn4" class="next_btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"/></svg>
+            <svg  id="prv_btn4" class="prv_btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160zm352-160l-160 160c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L301.3 256 438.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0z"/></svg>          
+          </div>
+        <div id="slide4">
+          <div id="section10" class="section active section4">
+            <div class="video_carousel">
+              <video autoplay muted loop preload="metadata" class="adv_video">
+                <source src="requirment/video/crowd.mov" type="video/mp4" />
+              </video>
+            </div>
+            <div class="section_content">
+              <h2>Advance Diplamo in 3d and vfx 1</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti rem veniam laboriosam voluptas dolores magnam fugit
+                perferendis hic labore vel odio, veritatis, tenetur laudantium
+                neque cumque. Esse beatae neque est eaque suscipit, natus
+                obcaecati enim quidem nobis culpa delectus amet?
+              </p>
+            </div>
+          </div>
+
+          <div id="section11" class="section section4">
+            <div class="video_carousel">
+              <video autoplay muted loop preload="none" class="adv_video">
+                <source src="requirment/video/crowd.mov" type="video/mp4" />
+              </video>
+            </div>
+            <div class="section_content">
+              <h2>Advance Diplamo in 3d and vfx 2</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti rem veniam laboriosam voluptas dolores magnam fugit
+                perferendis hic labore vel odio, veritatis, tenetur laudantium
+                neque cumque. Esse beatae neque est eaque suscipit, natus
+                obcaecati enim quidem nobis culpa delectus amet?
+              </p>
+            </div>
+          </div>
+
+          <div id="section12"  class="section section4">
+            <div class="video_carousel">
+              <video autoplay muted loop preload="none" class="adv_video">
+                <source src="requirment/video/crowd.mov" type="video/mp4" />
+              </video>
+            </div>
+            <div class="section_content">
+              <h2>Advance Diplamo in 3d and vfx 3</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti rem veniam laboriosam voluptas dolores magnam fugit
+                perferendis hic labore vel odio, veritatis, tenetur laudantium
+                neque cumque. Esse beatae neque est eaque suscipit, natus
+                obcaecati enim quidem nobis culpa delectus amet?
+              </p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="common" style="position: relative;">
+          <div class="buttons" >
+            <svg id="next_btn5" class="next_btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"/></svg>
+            <svg  id="prv_btn5" class="prv_btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160zm352-160l-160 160c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L301.3 256 438.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0z"/></svg>          
+          </div>
+        <div id="slide5">
+          <div id="section13" class="section active section5">
+            <div class="video_carousel">
+              <video autoplay muted loop preload="metadata" class="adv_video">
+                <source src="requirment/video/crowd.mov" type="video/mp4" />
+              </video>
+            </div>
+            <div class="section_content">
+              <h2>Advance Diplamo in 3d and vfx 1</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti rem veniam laboriosam voluptas dolores magnam fugit
+                perferendis hic labore vel odio, veritatis, tenetur laudantium
+                neque cumque. Esse beatae neque est eaque suscipit, natus
+                obcaecati enim quidem nobis culpa delectus amet?
+              </p>
+            </div>
+          </div>
+
+          <div id="section14" class="section section5">
+            <div class="video_carousel">
+              <video autoplay muted loop preload="none" class="adv_video">
+                <source src="requirment/video/crowd.mov" type="video/mp4" />
+              </video>
+            </div>
+            <div class="section_content">
+              <h2>Advance Diplamo in 3d and vfx 2</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti rem veniam laboriosam voluptas dolores magnam fugit
+                perferendis hic labore vel odio, veritatis, tenetur laudantium
+                neque cumque. Esse beatae neque est eaque suscipit, natus
+                obcaecati enim quidem nobis culpa delectus amet?
+              </p>
+            </div>
+          </div>
+
+          <div id="section15" class="section section5">
+            <div class="video_carousel">
+              <video autoplay muted loop preload="none" class="adv_video">
+                <source src="requirment/video/crowd.mov" type="video/mp4" />
+              </video>
+            </div>
+            <div class="section_content">
+              <h2>Advance Diplamo in 3d and vfx 3</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti rem veniam laboriosam voluptas dolores magnam fugit
+                perferendis hic labore vel odio, veritatis, tenetur laudantium
+                neque cumque. Esse beatae neque est eaque suscipit, natus
+                obcaecati enim quidem nobis culpa delectus amet?
+              </p>
+            </div>
+          </div>
+        </div>
+        </div>
+       
+      </div>
+
+
+      // let carosuel = document.querySelectorAll(".common");
+
+
+
+// carosuel.forEach((container,index) => {
+//     container.addEventListener('mouseover', function (event) {
+
+//         var clickedIndex = index + 1; // Adjust for 1-based indexing
+
+//         if (clickedIndex === 1) {
+//             let slides = document.querySelectorAll('.section1');
+//             let prvButton = document.getElementById('prv_btn1');
+//             let nextButton = document.getElementById('next_btn1');   
+//             prvButton.addEventListener('click', e => {
+//                 prevSlide(slides);
+//                 console.log("clicked")
+//             });
+            
+//             nextButton.addEventListener('click', e => {
+//                 nextSlide(slides);
+//                 console.log("clicked")
+//             });
+
+//             console.log('Container 1 clicked!');
+        
+//         }else if (clickedIndex === 2) {
+//             let slides = document.querySelectorAll('.section2');
+//             let prvButton = document.getElementById('prv_btn2');
+//             let nextButton = document.getElementById('next_btn2');
+//             prvButton.addEventListener('click', e => {
+//                 prevSlide(slides);
+//             });
+            
+//             nextButton.addEventListener('click', e => {
+//                 nextSlide(slides);
+//                 console.log("clicked")
+//             });
+
+//             console.log('Container 2 clicked!');
+        
+//         } else if (clickedIndex === 3) {
+//             let slides = document.querySelectorAll('.section3');
+//             let prvButton = document.getElementById('prv_btn3');
+//             let nextButton = document.getElementById('next_btn3');
+//             prvButton.addEventListener('click', e => {
+//                 prevSlide(slides);
+//             });
+            
+//             nextButton.addEventListener('click', e => {
+//                 nextSlide(slides);
+//                 console.log("clicked")
+//             });
+
+//             console.log('Container 3 clicked!');
+        
+//         } else if (clickedIndex === 4) {
+//             let slides = document.querySelectorAll('.section4');
+//             let prvButton = document.getElementById('prv_btn4');
+//             let nextButton = document.getElementById('next_btn4');
+//             prvButton.addEventListener('click', e => {
+//                 prevSlide(slides);
+//             });
+            
+//             nextButton.addEventListener('click', e => {
+//                 nextSlide(slides);
+//                 console.log("clicked")
+//             });
+//             console.log('Container 4 clicked!');
+        
+//         } else if (clickedIndex === 5) {
+//             let slides = document.querySelectorAll('.section5');
+//             let prvButton = document.getElementById('prv_btn5');
+//             let nextButton = document.getElementById('next_btn5');
+//             prvButton.addEventListener('click', e => {
+//                 prevSlide(slides);
+//             });
+            
+//             nextButton.addEventListener('click', e => {
+//                 nextSlide(slides);
+//                 console.log("clicked")
+//             });
+
+//             console.log('Container 5 clicked!');
+//         }    
+        
+        
+//     });    
+// });
+
+
+// // let nextButton = document.getElementById('next_btn');
+// // let prvButton = document.getElementById('prv_btn'); 
+// // // let section = document.querySelectorAll('.section');
+
+// // const slides = document.querySelectorAll('.section');
+// let prvButton = document.getElementById('prv_btn');
+// let nextButton = document.getElementById('next_btn');
+// let index = 0;
+
+// function prevSlide( slides){
+//     slides[index].classList.remove('active');
+//     index--;
+
+//     if(index < 0)
+//         index = slides.length -1;
+
+//     slides[index].classList.add('active');      
+
+// }
+
+// // prvButton.addEventListener('click', e => {
+// //     prevSlide();
+// // });
+// function nextSlide(slides){
+//     slides[index].classList.remove('active');
+//     index++;
+
+//     if(index > slides.length -1)
+//         index = 0;
+
+//     slides[index].classList.add('active');  
+        
+//     console.log(slides[index]);
+// }
+
+// nextButton.addEventListener('click', e => {
+//     nextSlide();
+// });
+
+
+// video to play on scroll
+
+// window.addEventListener('load', videoScroll);
+// window.addEventListener('scroll', videoScroll);
+
+// function videoScroll() {
+
+//   if ( document.querySelectorAll('video[autoplay]').length > 0) {
+//     var windowHeight = window.innerHeight,
+//         videoEl = document.querySelectorAll('video[autoplay]');
+
+//     for (var i = 0; i < videoEl.length; i++) {
+
+//       var thisVideoEl = videoEl[i],
+//           videoHeight = thisVideoEl.clientHeight,
+//           videoClientRect = thisVideoEl.getBoundingClientRect().top;
+
+//       if ( videoClientRect <= ( (windowHeight) - (videoHeight*.5) ) && videoClientRect >= ( 0 - ( videoHeight*.5 ) ) ) {
+//         thisVideoEl.play();
+//       } else {
+//         thisVideoEl.pause();
+//       }
+
+//     }
+//   }
+
+// }

@@ -133,7 +133,8 @@ function todisplay(btn1, btn2, btn3, cnt1, cnt2, cnt3) {
 
         
 };    
-                            
+     
+
 let nextButton = document.getElementById('next_btn');
 let prvButton = document.getElementById('prv_btn'); 
 // let section = document.querySelectorAll('.section');
@@ -171,3 +172,13 @@ function nextSlide(){
 nextButton.addEventListener('click', e => {
     nextSlide();
 });
+
+
+
+
+
+
+
+
+
+

@@ -91,7 +91,7 @@
                   <ul class="dropdown" id="myDropdown">
                     <li><a href="#">Diploma in 3D Animation</a></li>
                     <li>
-                      <div onclick="myFunction1()" class="al">
+                      <div class="al">
                         Animation & VFX
                         <svg
                           class="down"
@@ -132,7 +132,7 @@
                       >
                     </li>
                   </ul>
-                  <ul class="dropdown1" id="myDropdown1">
+                  <ul class="dropdown1" id="myDropdown1" style="display: none;" >
                     <li>
                       <a href="#" class="openModalLink"
                         >Adv Diploma in 3d&VFX</a
@@ -695,56 +695,17 @@
       </section>
 
       <!-- Advance Animation section -->
-      <div
-        class="animation_container"
-        id="box"
-        data-aos="zoom-out"
-        data-aos-duration="600"
-      >
-        <div class="buttons">
-          <svg
-            id="next_btn"
-            style="
-              width: 2rem;
-              height: 2rem;
-              position: absolute;
-              top: 50%;
-              right: 10rem;
-            "
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 512 512"
-          >
-            <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-            <path
-              fill="#7fa629"
-              d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM294.6 135.1c-4.2-4.5-10.1-7.1-16.3-7.1C266 128 256 138 256 150.3V208H160c-17.7 0-32 14.3-32 32v32c0 17.7 14.3 32 32 32h96v57.7c0 12.3 10 22.3 22.3 22.3c6.2 0 12.1-2.6 16.3-7.1l99.9-107.1c3.5-3.8 5.5-8.7 5.5-13.8s-2-10.1-5.5-13.8L294.6 135.1z"
-            />
-          </svg>
-          <svg
-            id="prv_btn"
-            style="
-              width: 2rem;
-              height: 2rem;
-              position: absolute;
-              top: 50%;
-              left: 10rem;
-            "
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 512 512"
-          >
-            <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-            <path
-              fill="#7fa629"
-              d="M48 256a208 208 0 1 1 416 0A208 208 0 1 1 48 256zm464 0A256 256 0 1 0 0 256a256 256 0 1 0 512 0zM217.4 376.9c4.2 4.5 10.1 7.1 16.3 7.1c12.3 0 22.3-10 22.3-22.3V304h96c17.7 0 32-14.3 32-32V240c0-17.7-14.3-32-32-32H256V150.3c0-12.3-10-22.3-22.3-22.3c-6.2 0-12.1 2.6-16.3 7.1L117.5 242.2c-3.5 3.8-5.5 8.7-5.5 13.8s2 10.1 5.5 13.8l99.9 107.1z"
-            />
-          </svg>
-        </div>
-
-        <div id="slide">
-          <div id="section1" class="section active">
+      <div class="animation_container" id="box">
+        <div class="common" style="position: relative;">
+          <div class="buttons" >
+            <svg id="next_btn" class="next_btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"/></svg>
+            <svg  id="prv_btn" class="prv_btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160zm352-160l-160 160c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L301.3 256 438.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0z"/></svg>          
+          </div>
+        <div id="slide1">
+          <div id="section1" class="section section1 active">
             <div class="video_carousel">
               <video autoplay muted loop preload="metadata" class="adv_video">
-                <source src="requirment/video/crowd.mov" type="video/mp4" />
+                <source src="requirment/video/3dvfx.mp4" type="video/mp4" />
               </video>
             </div>
             <div class="section_content">
@@ -759,14 +720,14 @@
             </div>
           </div>
 
-          <div id="section2" class="section">
+          <div id="section2" class="section1 section">
             <div class="video_carousel">
               <video autoplay muted loop preload="none" class="adv_video">
-                <source src="requirment/video/crowd.mov" type="video/mp4" />
+                <source src="requirment/video/effects.mov" type="video/mp4" />
               </video>
             </div>
             <div class="section_content">
-              <h2>Advance Diplamo in 3d and vfx 2</h2>
+              <h2>Advance Diploma in Effects 2</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Corrupti rem veniam laboriosam voluptas dolores magnam fugit
@@ -777,14 +738,50 @@
             </div>
           </div>
 
-          <div id="section3" class="section">
+          <div id="section3" class="section1 section">
             <div class="video_carousel">
-              <video autoplay muted loop preload="none" class="adv_video">
+              <video autoplay="false" muted loop preload="none" class="adv_video">
                 <source src="requirment/video/crowd.mov" type="video/mp4" />
               </video>
             </div>
             <div class="section_content">
-              <h2>Advance Diplamo in 3d and vfx 3</h2>
+              <h2>Adv Diploma in Crowd Simulation 3</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti rem veniam laboriosam voluptas dolores magnam fugit
+                perferendis hic labore vel odio, veritatis, tenetur laudantium
+                neque cumque. Esse beatae neque est eaque suscipit, natus
+                obcaecati enim quidem nobis culpa delectus amet?
+              </p>
+            </div>
+          </div>
+
+          <div id="section3" class="section1 section">
+            <div class="video_carousel">
+              <video autoplay="false" muted loop preload="none" class="adv_video">
+                <source src="requirment/video/charecter.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div class="section_content">
+              <h2>Adv Diploma in Character Effects 4</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti rem veniam laboriosam voluptas dolores magnam fugit
+                perferendis hic labore vel odio, veritatis, tenetur laudantium
+                neque cumque. Esse beatae neque est eaque suscipit, natus
+                obcaecati enim quidem nobis culpa delectus amet?
+              </p>
+            </div>
+          </div>
+
+          <div id="section3" class="section1 section">
+            <div class="video_carousel">
+              <video autoplay="false" muted loop preload="none" class="adv_video">
+                <source src="requirment/video/3d_animation.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div class="section_content">
+              <h2>Adv Diploma in Character Animation 5</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Corrupti rem veniam laboriosam voluptas dolores magnam fugit
@@ -795,6 +792,8 @@
             </div>
           </div>
         </div>
+        </div>
+
       </div>
     </main>
 

@@ -155,18 +155,22 @@ body{
 }
 
 .animation_container{
-    display: flex;
-    flex-direction: row;
+    position: relative;
 }
 
 .section{
-    width: 60%;
+    width: 90%;
     margin: auto;
     background-color: whitesmoke;
     border-radius: 10px;
     background-image: linear-gradient(to right, rgba(165, 210, 149, 0.221) , rgba(116, 219, 107, 0.374)40% ),url(requirment/img/anBgImg.png);
     background-size: cover;
     /* overflow-x: scroll; */
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5rem;
+    display: none;
+    box-shadow: 1px 10px 20px #0e3e18;
 }
 
 .adv_video{
@@ -199,21 +203,72 @@ body{
 }
 
 
-#section1 {
+/* .section1 {
     display: none;
 }
 
-#section2 {
+.section2 {
     display: none;
 }
 
-#section3 {
+.section3 {
     display: none;
-}
+} */
 
 .active {
     display: block !important;
 }
+
+ 
+            
+    .next_btn {
+        background-image: linear-gradient(to right, #56ab2f 0%, #a8e063  51%, #56ab2f  100%);
+        /* margin: 10px; */
+        padding: 20px 20px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius:5px 0 0 5px ;
+        display: block;
+        position: absolute;
+        top: 75%;
+        right: 5%;
+      }
+
+      .next_btn:hover {
+        background-position: right center; 
+        color: #fff;
+        text-decoration: none;
+      }
+     
+
+
+.prv_btn{
+    background-image: linear-gradient(to right, #56ab2f 0%, #a8e063  51%, #56ab2f  100%);
+        /* margin: 10px; */
+        padding: 20px 20px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius:0 5px 5px 0;
+        display: block;
+        position: absolute;
+        top: 75%;
+        left: 5%;
+}
+
+.prv_btn:hover{
+    background-position: right center; 
+        color: #fff;
+        text-decoration: none; 
+}
+              
 
 .footer-content{
     background-image: linear-gradient(rgba(255, 255, 255, 0) 30% , rgba(175, 251, 168, 0));
