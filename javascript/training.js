@@ -16,8 +16,6 @@ containers.forEach((container, index) => {
       var cnt2 = document.getElementById("dip1-p2");
       var cnt3 = document.getElementById("dip1-p3");
       todisplay(btn1, btn2, btn3, cnt1, cnt2, cnt3);
-
-      console.log("Container 1 clicked!");
     } else if (clickedIndex === 2) {
       var btn1 = document.getElementById("t4");
       var btn2 = document.getElementById("t5");
@@ -26,8 +24,6 @@ containers.forEach((container, index) => {
       var cnt2 = document.getElementById("dip2-p2");
       var cnt3 = document.getElementById("dip2-p3");
       todisplay(btn1, btn2, btn3, cnt1, cnt2, cnt3);
-
-      console.log("Container 2 clicked!");
     } else if (clickedIndex === 3) {
       var btn1 = document.getElementById("t7");
       var btn2 = document.getElementById("t8");
@@ -36,8 +32,6 @@ containers.forEach((container, index) => {
       var cnt2 = document.getElementById("dip3-p2");
       var cnt3 = document.getElementById("dip3-p3");
       todisplay(btn1, btn2, btn3, cnt1, cnt2, cnt3);
-
-      console.log("Container 3 clicked!");
     } else if (clickedIndex === 4) {
       var btn1 = document.getElementById("t10");
       var btn2 = document.getElementById("t11");
@@ -46,7 +40,6 @@ containers.forEach((container, index) => {
       var cnt2 = document.getElementById("dip4-p2");
       var cnt3 = document.getElementById("dip4-p3");
       todisplay(btn1, btn2, btn3, cnt1, cnt2, cnt3);
-      console.log("Container 4 clicked!");
     } else if (clickedIndex === 5) {
       var btn1 = document.getElementById("t13");
       var btn2 = document.getElementById("t14");
@@ -55,7 +48,6 @@ containers.forEach((container, index) => {
       var cnt2 = document.getElementById("dip5-p2");
       var cnt3 = document.getElementById("dip5-p3");
       todisplay(btn1, btn2, btn3, cnt1, cnt2, cnt3);
-      console.log("Container 5 clicked!");
     } else if (clickedIndex === 6) {
       var btn1 = document.getElementById("t16");
       var btn2 = document.getElementById("t17");
@@ -64,15 +56,12 @@ containers.forEach((container, index) => {
       var cnt2 = document.getElementById("dip6-p2");
       var cnt3 = document.getElementById("dip6-p3");
       todisplay(btn1, btn2, btn3, cnt1, cnt2, cnt3);
-
-      console.log("Container 6 clicked!");
     }
   });
 });
 
 function todisplay(btn1, btn2, btn3, cnt1, cnt2, cnt3) {
   btn1.addEventListener("click", function () {
-    console.log("btn 1");
     cnt1.style.display = "block";
     if (cnt1.style.display === "block") {
       cnt2.style.display = cnt3.style.display = "none";
@@ -85,7 +74,6 @@ function todisplay(btn1, btn2, btn3, cnt1, cnt2, cnt3) {
   });
 
   btn2.addEventListener("click", function () {
-    console.log("btn 2");
     cnt2.style.display = "block";
     if (cnt2.style.display === "block") {
       cnt1.style.display = cnt3.style.display = "none";
@@ -97,7 +85,6 @@ function todisplay(btn1, btn2, btn3, cnt1, cnt2, cnt3) {
   });
 
   btn3.addEventListener("click", function () {
-    console.log("btn 3");
     cnt3.style.display = "block";
     if (cnt3.style.display === "block") {
       cnt2.style.display = cnt1.style.display = "none";
@@ -136,8 +123,6 @@ function nextSlide() {
   if (index > slides.length - 1) index = 0;
 
   slides[index].classList.add("active");
-
-  console.log(slides[index]);
 }
 
 nextButton.addEventListener("click", (e) => {
