@@ -152,10 +152,12 @@ body {
 
 .animation_container {
   position: relative;
+  margin-top: 5rem;
 }
 
 .section {
   width: 90%;
+
   margin: auto;
   background-color: whitesmoke;
   border-radius: 10px;
@@ -174,11 +176,50 @@ body {
   box-shadow: 1px 10px 20px #0e3e18;
 }
 
+.image_car {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+.carousel_track {
+  width: 300%;
+  animation: carousel 15s both infinite;
+  display: flex;
+  flex-direction: row;
+}
+
+.imgslide {
+  /* display: inline-block; */
+  width: 100%;
+  float: right;
+}
+
+@keyframes carousel {
+  /* add/remove steps if more/less images */
+  0%,
+  10% {
+    transform: translate3d(0, 0, 0);
+  }
+  33.6%,
+  66.6% {
+    transform: translate3d(-33.3%, 0, 0);
+  }
+  66.6%,
+  100% {
+    transform: translate3d(-66.6%, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 .Adv_img {
   width: 100%;
   object-fit: cover;
-  height: 25rem;
-  border-radius: 10px 10px 0 0;
+  height: 30rem;
 }
 
 .section_content {
