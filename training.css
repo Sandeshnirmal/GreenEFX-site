@@ -191,6 +191,13 @@ body {
   flex-direction: row;
 }
 
+.adv_video {
+  width: 100%;
+  object-fit: cover;
+  height: 30rem;
+  border-radius: 10px 10px 0 0;
+}
+
 .imgslide {
   /* display: inline-block; */
   width: 100%;
