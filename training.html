@@ -46,148 +46,49 @@
     <link rel="stylesheet" href="training.css" />
   </head>
   <body>
-    <!-- ======= Header ======= -->
-    <header id="header">
-      <div class="container1">
-        <div>
-          <h1 class="logo">
-            <img class="logo_img" src="requirment/img/green_logo.png" />
-          </h1>
-          <!-- Uncomment below if you prefer to use an image logo -->
-          <!-- <a href="index.html" class="logo me-auto"></a>-->
-        </div>
-        <div class="fixed" onclick="toShow()">
-          <svg
-            class="nav-button"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 448 512"
-          >
-            <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-            <path
-              fill="#7fa629"
-              d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
-            />
-          </svg>
-        </div>
-        <nav id="navbar" class="navbar">
-          <div class="nav-contain">
-            <div class="nav_list">
-              <li>
-                <a class="nav-link hoveranimation" href="index.html#about"
-                  >About</a
-                >
-              </li>
-              <li>
-                <div class="nav-link hoveranimation tl">
-                  Training
-                  <svg
-                    class="down"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 448 512"
-                  >
-                    <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                    <path
-                      fill="#000000"
-                      d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
-                    />
-                  </svg>
-                </div>
-                <div class="training">
-                  <ul class="dropdown" id="myDropdown">
-                    <li><a href="#">Diploma in 3D Animation</a></li>
-                    <li>
-                      <div class="al">
-                        Animation & VFX
-                        <svg
-                          class="down"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 448 512"
-                        >
-                          <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                          <path
-                            fill="#000000"
-                            d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
-                          />
-                        </svg>
-                      </div>
-                    </li>
-                    <li>
-                      <a href="#" class="openModalLink"
-                        >Diploma in Graphics Designing</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="openModalLink"
-                        >Diploma in Web Designing</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="openModalLink"
-                        >Diploma in Desktop Publishing</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="openModalLink"
-                        >Diploma in Video Editing</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="openModalLink"
-                        >Diploma in Computer Application</a
-                      >
-                    </li>
-                  </ul>
-                  <ul class="dropdown1" id="myDropdown1" style="display: none">
-                    <li>
-                      <a href="#" class="openModalLink"
-                        >Adv Diploma in 3d&VFX</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="openModalLink"
-                        >Adv Diploma in Effects</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="openModalLink"
-                        >Adv Diploma in Crowd Simulation</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="openModalLink"
-                        >Adv Diploma in Character Effects</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="openModalLink"
-                        >Adv Diploma in Character Animation</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li>
-                <a class="nav-link hoveranimation" href="index.html#service"
-                  >Services</a
-                >
-              </li>
-              <li>
-                <a class="nav-link hoveranimation" href="#careers">Career</a>
-              </li>
-              <li>
-                <a class="nav-link hoveranimation" href="#contact">Contact</a>
-              </li>
-            </div>
-          </div>
-        </nav>
-        <!-- .navbar -->
+  <!-- ======= Header ======= -->
+  <header id="header" data-aos="fade-down" data-aos-duration="1500">
+    <div class="container1 ">
+      <div>
+      <h1 class="logo "><img class="logo_img" src="requirment/img/green_logo.png"></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"></a>-->
       </div>
-    </header>
+      <div class="fixed" onclick="toShow()">
+      <svg class="nav-button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#7fa629" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+    </div>
+      <nav id="navbar" class="navbar">
+        <div class="nav-contain">
+        <div class="nav_list">
+          <li><a class="nav-link hoveranimation" href="index.html#about">About</a></li>
+          <li id="c_listing"><a href="training.html"><div class="nav-link hoveranimation tl" >Training <svg class="down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path  fill="#000000" d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg></a></li>
+            <div id="list_box" class="training" >
+             <ul class="dropdown" id="myDropdown" >
+              <li><a href="#Animation3d" >Diploma in 3D Animation</a></li>
+              <li ><a href="#box">Animation & VFX </a></li>
+              <li><a href="#Graphics_des" class="openModalLink">Diploma in Graphics Designing</a></li>
+              <li><a href="#web"class="openModalLink" >Diploma in Web Designing</a></li>
+              <li><a href="#dp"class="openModalLink" >Diploma in Desktop Publishing</a></li>
+              <li><a href="#video" class="openModalLink">Diploma in Video Editing</a></li>
+              <li><a href="#computer" class="openModalLink">Diploma in Computer Application</a></li>
+            </ul>
+          </div>
+        </li>
+          <li><a class="nav-link hoveranimation" href="index.html#service">Services</a></li>
+          <li><a class="nav-link hoveranimation" href="index.html#careers">Career</a></li>
+          <li><a class="nav-link hoveranimation" href="index.html#contact">Contact</a></li>
+        </div>
+      </div>
+
+      </nav><!-- .navbar -->
+
+    </div>
+  </header>
 
     <!-- description section -->
-    <section class="tcourse">
+    <section class="tcourse" >
       <div class="tcourse-container">
-        <h2 class="img_heading" style="margin: 0">training</h2>
+        <h2 class="img_heading" >training</h2>
         <p class="course_dec">
           Unleash your creativity and gain valuable industry skills with our
           diploma courses in design and media! We offer a variety of programs
@@ -378,7 +279,7 @@
         </div>
       </section>
 
-      <section class="dip1 dip1_mobile">
+      <section class="dip1 dip1_mobile" id="web">
         <div class="dip1-container par container">
           <h2 class="heading headings">Diploma in Web Designing</h2>
           <div class="dip1-button">
@@ -465,7 +366,7 @@
         </div>
       </section>
 
-      <section class="dip2 dip1_mobile">
+      <section class="dip2 dip1_mobile" id="dp">
         <div class="dip2-container par container">
           <h2 class="heading headings">Diploma in Desktop Publishing</h2>
           <div class="dip1-button">
@@ -550,7 +451,9 @@
         </div>
       </section>
 
-      <section class="dip1 dip1_mobile">
+
+      <div id="video"></div>
+      <section class="dip1 dip1_mobile" >
         <div class="dip1-container par container">
           <h2 class="heading headings">Diploma in Video Editing</h2>
           <div class="dip1-button">
@@ -636,7 +539,7 @@
         </div>
       </section>
 
-      <section class="dip2 dip1_mobile">
+      <section class="dip2 dip1_mobile" id="computer">
         <div class="dip2-container par container">
           <h2 class="heading headings">Diploma in Computer Application</h2>
           <div class="dip1-button">
@@ -1007,5 +910,6 @@
 
     <script src="javascript/header.js"></script>
     <script src="javascript/training.js"></script>
+    
   </body>
 </html>

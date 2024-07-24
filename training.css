@@ -20,7 +20,8 @@ body {
   text-align: center;
   color: transparent;
   background-image: url(requirment/img/new2.jpg);
-  padding: 1rem;
+  padding: 1rem 0;
+  margin: 0;
   margin: 0;
   font-size: 4.5rem;
   text-transform: uppercase;
@@ -358,9 +359,13 @@ body {
   .tcourse {
     background-size: cover;
     width: 100%;
-    height: 40rem;
+    height: 45rem;
     margin-top: 7rem;
     text-align: center;
+  }
+
+  .img_heading {
+    min-width: 15rem;
   }
 
   .headings {
@@ -386,10 +391,6 @@ body {
 
   .dip1 {
     padding-bottom: 0%;
-  }
-
-  .tcourse-container {
-    width: 95%;
   }
 
   .dip1-button span {
@@ -426,12 +427,12 @@ body {
     margin-bottom: 1rem;
   }
   .tcourse-container {
-    width: 80%;
-    position: absolute;
+    width: 90%;
+    position: static;
     padding-bottom: 1rem;
     right: 3rem;
     height: 50;
-    margin: 0%;
+    margin: auto;
     padding: 0%;
   }
   .video_contariner {
