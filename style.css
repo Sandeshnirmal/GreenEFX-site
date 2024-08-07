@@ -137,6 +137,10 @@ body {
   color: #000000;
 }
 
+.dropdown a:hover {
+  color: rgb(138, 173, 49);
+}
+
 .dropdown ul {
   /* display: block; */
   /* position: 10%, 10%; */
@@ -584,39 +588,78 @@ svg {
   top: 0;
 }
 
-#close {
+.close {
   width: 2rem;
   height: 2rem;
   position: absolute;
   top: 25px;
   right: 60px;
   cursor: pointer;
+  z-index: 12;
 }
 
 .popup {
-  /* position: sticky; */
-  top: 30%;
-  left: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   /* background-attachment: fixed; */
   z-index: 10;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
 }
 
-.main_view {
-  width: 60%;
+.b1 {
+  cursor: pointer;
+}
+
+.containerss {
+  width: 100%;
+  height: 100vh;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.video_main_view {
-  width: 70%;
-  position: relative;
-  margin: auto;
+.containerss .slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
+.containerss ul {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+}
+
+.containerss ul li {
+  list-style: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.containerss ul li video {
+  width: 200px;
+  transition: all 0.3s;
+  border-radius: 15px;
+}
+.containerss ul li video:hover {
+  transform: scale(1.1);
+}
+
+.videos {
+  width: 15rem;
+  height: 8rem;
+  border-radius: 1rem;
+}
 /* ---careers section--- */
 
 .career-section {
@@ -833,6 +876,11 @@ svg {
   font-size: 1.3rem;
   margin: 0;
   margin-bottom: 1rem;
+}
+
+.Read_btn {
+  color: rgb(239, 150, 150);
+  cursor: pointer;
 }
 
 /* ---contact section--- */

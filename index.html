@@ -40,7 +40,7 @@
 <header id="header" class="hide" data-aos="fade-down" data-aos-duration="1500">
   <div class="container1 ">
     <div>
-    <h1 class="logo "><img class="logo_img" src="requirment/img/green_logo.png"></h1>
+    <a href="" class="logo "><img class="logo_img" src="requirment/img/green_logo.png"></a>
     <!-- Uncomment below if you prefer to use an image logo -->
     <!-- <a href="index.html" class="logo me-auto"></a>-->
     </div>
@@ -167,39 +167,19 @@
             </div>
             <div id="popup1" class="popup_c" style="display: none;">
             <div class="popup">
-              <img id="close" src="requirment/img/close.png" alt="close button"  onclick="popup()">
+              <img class="close" id="close" src="requirment/img/close.png" alt="close button"  onclick="popup()">
               
-              <div class="video_popup">
-                <div class="video_section">
-                    <div class="main_view" >
-                      <video  class="video_main_view"  autoplay muted loop preload="auto">
-                        <source id="main_video" src="requirment/video/bg-video.mp4" type="video/mp4" />
-                      </video> 
-                    </div>
-                    <div class="over_view">
-                        <div class="vid">
-                          <video class="video_lists" autoplay muted loop preload="auto">
-                            <source class="video_list" src="requirment/video/bg-video.mp4" type="video/mp4" />
-                          </video> 
-                        </div>
-                        <div class="vid">
-                          <video class="video_lists" autoplay muted loop preload="auto">
-                            <source class="video_list" src="requirment/video/bg-video.mp4" type="video/mp4" />
-                          </video>
-                        </div>
-                        <div class="vid">
-                          <video class="video_lists" autoplay muted loop preload="auto">
-                            <source class="video_list" src="requirment/video/bg-video.mp4" type="video/mp4" />
-                          </video>
-                        </div>
-                        <div class="vid">
-                          <video class="video_lists" autoplay muted loop preload="auto">
-                            <source class="video_list" src="requirment/video/bg-video.mp4" type="video/mp4" />
-                          </video>
-                        </div>
-                    </div>
-                </div>
-              </div>
+              <div class="containerss">
+                <video id="videos" src="requirment/video/GreenEFX ShowReel.mp4" class="slider" autoplay controls></video>
+        
+                <ul>
+                  <li onclick="videoslider('requirment/video/GreenEFX ShowReel.mp4')"><img class="videos" src="requirment/img/showreel.png"></img></li>
+                  <li onclick="videoslider('requirment/video/GreenEFX Media - Intro.mp4')"><img class="videos" src="requirment/img/G-intro.png"></img></li>
+                  <li onclick="videoslider('requirment/video/Spring Days ads 30S.mp4')"><img class="videos" src="requirment/img/springAdd.png"></img></li>
+                  <li onclick="videoslider('requirment/video/Adithya Adsme - 3D Animation Ads.mp4')"><img class="videos" src="requirment/img/A_add.png"></img></li>
+                  <!-- <li onclick="videoslider('./video1.mp4')"><video src="./video1.mp4"></video></li> -->
+                </ul>
+            </div>
           </div>
             </div>
             <div class="popup"></div>
@@ -209,7 +189,7 @@
                 <div class="box1 box serviceboxupslide" data-aos="fade-up" data-aos-duration="2000" >
                   <svg class="icon" id="Layer_5" enable-background="new 0 0 64 64" height="512" viewBox="0 0 64 64" width="512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="32" x2="32" y1="63" y2="1"><stop offset="0" stop-color="#9f2fff"/><stop offset="1" stop-color="#0bb1d3"/></linearGradient><path d="m17 36c0-1.654-1.346-3-3-3h-6v-2h6c1.654 0 3-1.346 3-3s-1.346-3-3-3h-6v-2h6c2.757 0 5 2.243 5 5 0 1.641-.806 3.088-2.031 4 1.225.912 2.031 2.359 2.031 4 0 2.757-2.243 5-5 5h-6v-2h6c1.654 0 3-1.346 3-3zm7 5h-3v-18h3c4.962 0 9 4.038 9 9 0 4.963-4.038 9-9 9zm7-9c0-3.86-3.14-7-7-7h-1v14h1c3.86 0 7-3.141 7-7zm-28 11h-2v2h2zm2 2h2v-2h-2zm6 0v-2h-2v2zm-2-26v2h2v-2zm-2 0h-2v2h2zm-4 0h-2v2h2zm16-12v4h2v-4h11v-2h-11c-1.103 0-2 .897-2 2zm30 50h-4v2h4c1.103 0 2-.897 2-2v-10h-2zm-30-8h2v-2h-2zm0 8h2v-2h-2zm0-4h2v-2h-2zm44-47v52c0 2.757-2.243 5-5 5h-8-30c-2.757 0-5-2.243-5-5v-13h-2v-2h13c6.065 0 11-4.935 11-11s-4.935-11-11-11h-13v-2h2v-13c0-2.757 2.243-5 5-5h30 8c2.757 0 5 2.243 5 5zm-13 55c1.654 0 3-1.346 3-3v-52c0-1.654-1.346-3-3-3h-30c-1.654 0-3 1.346-3 3v13h9c7.168 0 13 5.832 13 13s-5.832 13-13 13h-9v13c0 1.654 1.346 3 3 3zm11-55c0-1.654-1.346-3-3-3h-4.026c.635.838 1.026 1.87 1.026 3v52c0 1.13-.391 2.162-1.026 3h4.026c1.654 0 3-1.346 3-3zm-12 39h2v-2h-2zm0-4h2v-2h-2zm-15-34h2v-2h-2z" fill="url(#SVGID_1_)"/></svg>
                   <h4 class="head-text" >3D Animation & VFX</h4>
-                  <p class="p-text">We bring your ideas to life with stunning 3D animation and jaw-dropping VFX.</p>
+                  <p class="p-text">We bring your ideas to life with stunning 3D animation and jaw-dropping VFX. <br> <b> Click here to know more</b></p>
                 </div>
               </div>
               <div class="b2 flex-contain">
@@ -239,31 +219,41 @@
             </div>
             <div class="mobile-container">
               <div class="mc">
-                <h2 class="hc" >Internship Program</h2>
-                      <span> We offer an exciting opportunity to work with a dynamic team and engage in hands-on projects that will challenge and inspire you.</span>
+                <h3 class="hc" >Internship Program</h3>
+                      <span> Internship Program for BSc Visual Communication at GreenEFX Media <br><br>
+
+                        At GreenEFX Media, we understand the importance of hands-on experience in shaping future professionals in Visual Communication. Our internship program offers a dynamic learning environment where students can apply their academic knowledge to real-world projects.
+                      <span  class="Read_btn">Read more..</span> 
               </div>
             
               <div class="mc">
-                <h2 class="hc">Web Designer</h2>
-                  <span>We are hiring a talented Web Designer to help create stunning and user-friendly websites. <br></span>
-                  <span>
-                    <b class="hc1">Responsibilities:</b>
-                    <ul class="c-list">
-                      <li>Skills: HTML, CSS, Javascript</li>
-                      <li>Create UI/UX wireframes and prototypes</li>
-                      <li>Collaborate with developers to implement designs</li>
-                    </ul>
+                <h2 class="hc"> Graphic Designer</h2>
+                  <span>We are hiring a talented Web Designer to help create stunning and user-friendly websites. 
+                
+                    
+                      Join Our Team as a Graphic Designer <br>
+
+                      Position: Graphic Designer <br>
+
+                      Responsibilities: <br>
+                       - Create compelling visual content for various platforms, including digital and print media. <br>
+                      - Design marketing materials such as brochures, flyers, posters, and banner. <br>
+                      
+                      <span  class="Read_btn">Read more..</span>  
+                      </span>
                   </span>
               </div>
               <div class="mc">
-                <h2 class="hc">Programmer</h2>
-                <span>Are you a passionate programmer seeking new challenges? Join our dynamic team  and work on exciting projects.</span>
-                <span><b  class="hc1">Responsibilities:</b>
-                  <ul class="c-list">
-                    <li>Skills: C, C++, Python</li>
-                    <li>Debug and troubleshoot issues</li>
-                    <li>Collaborate with cross-functional teams</li>
-                  </ul>
+                <h3 class="hc"> AR/VR Development</h3>
+                      <span>                        
+                        Position: AR/VR Developer <br><br>
+                    
+                        Responsibilities: <br>
+                        
+                          -  Develop immersive augmented reality (AR) and virtual reality (VR) applications and experiences. <br>
+                          -  Collaborate with cross-functional teams to define, design, and ship new features. <br>
+                          -  Implement interactive user interfaces and experiences using Unity3D or Unreal Engine. <br> <span class="Read_btn">Read more..</span>  
+                      </span>
               </div>
             </div>
               <div class="section-container">
@@ -274,7 +264,7 @@
                       <span> Internship Program for BSc Visual Communication at GreenEFX Media <br><br>
 
                         At GreenEFX Media, we understand the importance of hands-on experience in shaping future professionals in Visual Communication. Our internship program offers a dynamic learning environment where students can apply their academic knowledge to real-world projects. Here’s what sets our internship program apart:
-                      <a href="">Read more</a>  
+                      <span id="r1" class="Read_btn">Read more..</span>  
                       </span>
                       
                     </div>
@@ -292,7 +282,7 @@
                       - Design marketing materials such as brochures, flyers, posters, and banner. <br>
                       Requirements: <br>
                       - Proven experience as a Graphic Designer or similar role. <br>
-                      - Proficiency in Adobe Creative Suite (Illustrator, Photoshop, InDesign).<a href="">Read more</a>
+                      - Proficiency in Adobe Creative Suite (Illustrator, Photoshop, InDesign).<span id="r2" class="Read_btn">Read more..</span>  
                       </span>
                     </div>
                   </div>
@@ -306,15 +296,15 @@
                         
                           -  Develop immersive augmented reality (AR) and virtual reality (VR) applications and experiences. <br>
                           -  Collaborate with cross-functional teams to define, design, and ship new features. <br>
-                          -  Implement interactive user interfaces and experiences using Unity3D or Unreal Engine. <br> <a href="">Read more</a>
+                          -  Implement interactive user interfaces and experiences using Unity3D or Unreal Engine. <br> <span id="r3" class="Read_btn">Read more..</span>  
                       </span>
                     </div>
                   </div>
                 </div>
               </div>
               <!-- read more section  -->
-            <div class="Read_more" style="display: none;">
-              <img id="close" src="requirment/img/close.png" alt="close button"  >
+            <div class="Read_more" id="d1" style="display: none;">
+              <img class="close" id="close1" src="requirment/img/close.png" alt="close button">
               <div class="more_popup">
                 <div class="inside_box">
                   <h3 class="hc cen" > Internship Program for BSc Visual Communication at GreenEFX Media</h3>
@@ -332,9 +322,12 @@
                       </span>
                 </div>
               </div>
-              <div class="more_popup" style="display: none;">
+            </div>
+            <div class="Read_more" id="d2" style="display: none;">
+              <img class="close" id="close2" src="requirment/img/close.png" alt="close button">
+              <div class="more_popup" >
                 <div class="inside_box">
-                  <h2 class="hc"> Graphic Designer</h2>
+                  <h2 class="hc cen"> Graphic Designer</h2>
                   <span>
                     Join Our Team as a Graphic Designer <br>
 
@@ -345,13 +338,23 @@
                     - Design marketing materials such as brochures, flyers, posters, and banner. <br>
                     Requirements: <br>
                     - Proven experience as a Graphic Designer or similar role. <br>
-                    - Proficiency in Adobe Creative Suite (Illustrator, Photoshop, InDesign).
+                    - Proficiency in Adobe Creative Suite (Illustrator, Photoshop, InDesign). <br>
+                    -  Knowledge of typography, color theory, and layout principles.<br>
+	                  -  Detail-oriented with a keen eye for aesthetics and design consistency.<br>
+	                  -  Bachelor’s degree in Graphic Design or related field (preferred).<br><br>
+
+                    Join our talented team of creatives and contribute your passion for design to our exciting projects.<br>
+                    Grow your career in a supportive and collaborative environment where your ideas matter.<br>
+                   
                     </span>
                 </div>
               </div>
-              <div class="more_popup" style="display: none;">
+            </div>
+            <div class="Read_more" id="d3" style="display: none;">
+              <img class="close" id="close3" src="requirment/img/close.png" alt="close button">
+              <div class="more_popup">
                 <div class="inside_box">
-                  <h3 class="hc"> AR/VR Development</h3>
+                  <h3 class="hc cen"> AR/VR Development</h3>
                       <span>                        
                         Position: AR/VR Developer <br><br>
                     
@@ -360,11 +363,20 @@
                           -  Develop immersive augmented reality (AR) and virtual reality (VR) applications and experiences. <br>
                           -  Collaborate with cross-functional teams to define, design, and ship new features. <br>
                           -  Implement interactive user interfaces and experiences using Unity3D or Unreal Engine. <br> 
+                          -  Integrate AR/VR functionality with backend systems and APIs. <br>
+                          -  Optimize applications for performance and scalability. <br><br>
+      
+      
+                        Requirements:
+                        -  Proven experience as an AR/VR Developer or similar role.<br>
+                        -  Strong proficiency in Unity3D or Unreal Engine.<br>
+                        -  Experience with ARKit, ARCore, Vuforia, or other AR/VR SDKs.<br>
+                        -  Knowledge of version control systems (e.g., Git).<br>
+                        -  Bachelor’s degree in Computer Science, Engineering, or a related field (preferred).<br>
                       </span>
                 </div>
               </div>
             </div>
-          </div>
             </section>
       </div>       
     </section>        
