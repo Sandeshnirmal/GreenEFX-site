@@ -44,7 +44,7 @@
             }
           });
         } else {
-          displayError(k
+          displayError(
             thisForm,
             "The reCaptcha javascript API url is not loaded!"
           );
