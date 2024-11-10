@@ -8,6 +8,8 @@ require 'phpmailer/src/Exception.php';
 require 'phpmailer/src/PHPMailer.php';
 require 'phpmailer/src/SMTP.php';
 
+// sadjfnbd
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
         $cname = $_POST["cname"];
@@ -42,6 +44,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     
 
-
+// jjdskfgdhkfjgdfg
 
 ?>
