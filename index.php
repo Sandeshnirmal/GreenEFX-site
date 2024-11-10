@@ -8,7 +8,7 @@ require 'phpmailer/src/Exception.php';
 require 'phpmailer/src/PHPMailer.php';
 require 'phpmailer/src/SMTP.php';
 
-// sadjfnbd
+// sandesh nirmal
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
