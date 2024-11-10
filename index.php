@@ -1,9 +1,5 @@
 <?php
 
-
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-
 require 'phpmailer/src/Exception.php';
 require 'phpmailer/src/PHPMailer.php';
 require 'phpmailer/src/SMTP.php';
@@ -12,7 +8,7 @@ require 'phpmailer/src/SMTP.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
-        $cname = $_POST["cname"];
+        $cname = $_POST["cna"];
         $email = $_POST["cemail"];
         $cphone = $_POST["cmobile"];
         $subject = $_POST["subject"];
