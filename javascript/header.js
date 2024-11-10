@@ -5,21 +5,17 @@ let screens = screen.width;
 let list = document.getElementById("c_listing");
 
 list.addEventListener("mouseover", function (event) {
-  console.log(screens);
   if (screens >= 1000) {
     myDropdown.style.display = "block";
   }
 });
 
 myDropdown.addEventListener("mouseover", function (event) {
-  console.log("on");
   myDropdown.style.display = "block";
   display = 1;
 });
 
 body.addEventListener("mouseout", function (event) {
-  console.log("off");
-
   myDropdown.style.display = "none";
   display = 0;
 });
@@ -55,6 +51,4 @@ window.addEventListener("scroll", () => {
   }
 
   prevScrollPos = currentScrollPos;
-
-  console.log("works");
 });
