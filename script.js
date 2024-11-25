@@ -529,3 +529,6 @@ class CardCarousel extends DraggingEvent {
 }
 
 const carousel = new CardCarousel(cardsContainer)
+
+var nam = document.getElementById("2").muted;
+nam = true;

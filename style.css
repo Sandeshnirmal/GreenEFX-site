@@ -654,19 +654,19 @@ svg {
    padding: 20px;
    /* margin-top: -12em; */
    /* background: rgba(0, 0, 0, 0.188);  */
-   height: 15rem;
+   height: 25rem;
  }
 
  .card-carousel {
    --card-width: 80%;
    /* --card-max-width: 280px; */
    --card-height: 400px;
-   max-width: 1496px;
+   max-width: 85%;
    /* --carousel-min-width: 600px; */
    z-index: auto;
    position: relative;
-   margin: 0 auto;
-   width: 100%;
+   margin:  auto;
+   /* width: 100%; */
    height: var(--card-height);
    min-width: var(--carousel-min-width);
    transition: filter .3s ease;
@@ -702,18 +702,18 @@ svg {
   width: 5rem;
   height: 5rem;
   position: absolute;
-  top: 25%;
+  top: 35%;
   display: flex;
 }
 
 .left-arrow{
   transform: rotate(270deg);
-  left: 10%;
+  left: 5%;
 }
 
 .right-arrow {
   transform: rotate(90deg);
-  right: 10%;
+  right: 5%;
 }
 
  .card-carousel .card {
@@ -908,7 +908,7 @@ svg {
   } */
 
 .containerss ul li #video {
-  width: 200px;
+  width: 50rem;
   transition: all 0.3s;
   border-radius: 15px;
 }
@@ -918,9 +918,10 @@ svg {
 }
 
 .videos {
-  width: 25rem;
-  height: 15rem;
+  width: 45rem;
+  height: 25rem;
   border-radius: 1rem;
+  background-color: #000000;
 }
 
 #videos::-webkit-media-controls {
