@@ -283,7 +283,7 @@ body {
   }
 }
 
-video::-webkit-media-controls {
+ #video::-webkit-media-controls {
   display: none;
 }
 
