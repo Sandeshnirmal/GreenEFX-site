@@ -654,14 +654,14 @@ svg {
    padding: 20px;
    /* margin-top: -12em; */
    /* background: rgba(0, 0, 0, 0.188);  */
-   height: 15rem;
+   height: 30rem;
  }
 
  .card-carousel {
    --card-width: 80%;
    /* --card-max-width: 280px; */
    --card-height: 400px;
-   max-width: 1496px;
+   max-width: 2000px;
    /* --carousel-min-width: 600px; */
    z-index: auto;
    position: relative;
@@ -670,7 +670,7 @@ svg {
    height: var(--card-height);
    min-width: var(--carousel-min-width);
    transition: filter .3s ease;
-   padding-bottom: 5rem;
+   padding-top: 5rem;
  }
  
  .bacground {
@@ -854,14 +854,14 @@ svg {
 }
 
 .video_containers {
-  height: 40rem;
+  height: 55rem;
   /* background-color: #000000; */
   padding-top: 2rem;
 }
 
 .containerss {
   width: 100%;
-  height: 30rem;
+  height: 60rem;
   position: relative;
   display: flex;
   justify-content: center;
@@ -872,7 +872,7 @@ svg {
 
 .containerss .slider {
   width: 60rem;
-  height: 100%;
+  /* height: 100%; */
   margin: auto;
   padding: 1rem;
   border-radius: 2rem;
@@ -884,8 +884,8 @@ svg {
 }
 
 .ratio {
-  /* width: 65%; */
-  height: 100%;
+  width: 65%;
+  /* height: 100%; */
 }
 
   /* .containerss ul {
@@ -918,8 +918,8 @@ svg {
 }
 
 .videos {
-  width: 25rem;
-  height: 15rem;
+  width: 37rem;
+  height: 23rem;
   border-radius: 1rem;
 }
 
@@ -1365,6 +1365,15 @@ strong {
   .flex-container {
     width: 55% !important;
   }
+
+
+}
+
+@media screen and (min-width: 1500) {
+  .videos {
+      width: 23rem;
+      height: 15rem;
+    }
 }
 
 @media screen and (max-width: 1000px) {
